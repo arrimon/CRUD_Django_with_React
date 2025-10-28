@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+.container { max-width: 900px; margin: 0 auto; }
+header { display:flex; justify-content:space-between; align-items:center }
+nav a { margin-right: 10px }
+.table { width:100%; border-collapse: collapse; margin-top: 10px }
+.table th, .table td { border: 1px solid #ddd; padding: 8px }
+.form { display:flex; flex-direction: column; gap:8px; max-width:600px }
+.inline { margin-right: 10px }
+.error { color: red; font-size: 0.9em }
+.link-btn { background:none; border:none; color:blue; text-decoration:underline; cursor:pointer }
+.buttons { margin-top:10px }
+.buttons button { margin-right:8px }
